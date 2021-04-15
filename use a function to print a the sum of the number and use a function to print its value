@@ -1,0 +1,6 @@
+def print_function(num):
+    print(num)
+def add(a,b):
+   sum=a + b
+   print_function(sum)
+add(5,4)
