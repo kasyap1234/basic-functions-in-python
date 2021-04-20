@@ -1,0 +1,7 @@
+def blastoff(i):
+  if i>0: #basecase
+    print(i)
+    blastoff(i-1) #recursive case
+    #same process is carried out until i becomes 0 .
+    
+print(blastoff(10))
